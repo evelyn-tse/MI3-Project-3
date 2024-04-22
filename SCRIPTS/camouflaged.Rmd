@@ -1,0 +1,70 @@
+---
+title: "Camouflaged"
+output: html_document
+date: '2024-04-22'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r }
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(kableExtra)
+
+data <- read.csv("C:/Users/evely/OneDrive/Documents/DS 4002 - Data Science Project/MI3-Project-3/DATA/results.csv")
+data
+
+
+# Read the CSV file into a data frame
+
+# Convert camouflaged and match columns to logical
+data$camouflaged <- as.logical(data$camouflaged)
+data$match <- as.logical(data$match)
+
+
+camoObjects <- data$object_detected[data$camouflaged == TRUE]
+camoObjectDetectedTrue <- sum(camoObjects == "True")
+camoObjectDetectedFalse <- sum(camoObjects == "False")
+
+camoMatch <- data$match[data$camouflaged == TRUE]
+camoMatchTrue <- sum(camoMatch == TRUE)
+
+nonCamoObjects <- data$object_detected[data$camouflaged == FALSE]
+nonCamoObjectDetectedTrue <- sum(nonCamoObjects == "True")
+nonCamoObjectDetectedFalse <- sum(nonCamoObjects == "False")
+
+nonCamoMatch <- data$match[data$camouflaged == FALSE]
+nonCamoMatchTrue <- sum(nonCamoMatch == TRUE)
+
+# Summary table
+summary_table <- data.frame(
+  Camouflaged = c("True", "False"),
+  Object_Detection_Accuracy = c(camoObjectDetectedTrue/83,
+                               nonCamoObjectDetectedTrue/83),
+  Object_Match_Accuracy = c(camoMatchTrue/83,
+                            nonCamoMatchTrue/83)
+)
+
+# Print summary table
+kable(summary_table, align = "c", caption = "Summary Table of Object Detection and Match Accuracy") %>%
+  kable_styling(full_width = FALSE)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

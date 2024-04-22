@@ -244,6 +244,6 @@ with open('../DATA/results.csv', 'w', newline='', encoding="utf8") as file:
 
         # Display the result
         cv2.imshow('Object Detection', image)
-        cv2.waitKey(500)  # Display each image for 0.5 seconds
+        cv2.waitKey(1000)  # Display each image for 0.5 seconds
         cv2.destroyAllWindows()
 
