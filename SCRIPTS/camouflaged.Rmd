@@ -57,6 +57,36 @@ summary_table <- data.frame(
 # Print summary table
 kable(summary_table, align = "c", caption = "Summary Table of Object Detection and Match Accuracy") %>%
   kable_styling(full_width = FALSE)
+
+counts_table <- data.frame(
+  Camouflaged = c("True", "False"),
+  Object_Detected = c(camoObjectDetectedTrue, nonCamoObjectDetectedTrue),
+  Object_Match = c(camoMatchTrue, nonCamoMatchTrue)
+)
+
+ggplot(counts_table, aes(x = Object_Detected, fill = Camouflaged)) +
+  geom_bar(position = "dodge", color = "black", stat = "count") +
+  labs(title = "Number of True Object Detection by Camouflaged",
+       x = "Camouflaged",
+       y = "Count",
+       fill = "Object Detected") +
+  theme_minimal()
+
+ggplot(data, aes(x = object_detected, fill = camouflaged)) +
+  geom_bar(position = "dodge") +
+  labs(title = "Number of Objects Detected by Camouflaged",
+       x = "Object Detected",
+       y = "Number of Object Detections",
+       fill = "Camouflaged") +
+  theme_minimal()
+
+ggplot(data, aes(x = match, fill = camouflaged)) +
+  geom_bar(position = "dodge") +
+  labs(title = "Number of Objects Detected Correctly by Camouflaged",
+       x = "Object Detected",
+       y = "Number of Object Label Matches",
+       fill = "Camouflaged") +
+  theme_minimal()
 ```
 
 ## Including Plots
