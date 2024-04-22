@@ -9,7 +9,9 @@
   Google Drive was used to clean and gather a subset of the data. This was chosen because it has
   built in features allowing for collaboration, making it easy for team members to modify the
   dataset together. To analyze the images, we used ModelNetSSD which provides a pre-trained object
-  detection model software. Windows 11 was the platform used to complete this analysis. 
+  detection model software. We ran code using ModelNetSSD in Visual Studio Code and created tables
+  and graphs in RStudio using built in libraries such as KableExtra, dplyr, ggplot2, and Tidyverse.
+  Windows 11 was the platform used to complete this analysis. 
 
 ## Section 2: A Map of your documentation. 
 
@@ -56,8 +58,8 @@
 ## Section 3: Steps the group used and the instructions for reproducing the results: 
 1. Gather Raw Data - We secured a complete dataset of camouflaged and non-camouflaged images from Trung-Nghia Nguyen's website on Camouflage Detection Research[1]. This data is located in the DATA folder.
 2. Filter the Data - For both camouflaged and non-camouflaged images, we chose a subset of each, about 100 photos per category, and began labeling them. These images were chosen at random from the original dataset and moved into separate folders for testing. For each image chosen, we renamed the image to be the name of the object that should be identified. 
-3. Run Object Detection Analysis - Using ModelNetSSD, we ran the model on all the images and saved the results.
-4. Analyze Results - Use data, tables, and graphs to compare the results of object detection analysis on camouflaged and non-camouflaged images to note any differences in the model's accuracy to detect the correct object on the different types of images. 
+3. Run Object Detection Analysis - Using ModelNetSSD, we ran the model on all the images by running the "camouflaged.py" file and saved the results into a file called "results.csv" in Visual Studio Code.
+4. Analyze Results - Use data and tables to compare the results of object detection analysis on camouflaged and non-camouflaged images to note any differences in the model's accuracy to detect the correct object on the different types of images by running the "camouflaged.Rmd" file in RStudio.
 
 ### References
 [1]	Nguyen, Long T. Nghia. (n.d.). Camouflage Detection Research. Available: https://sites.google.com/view/ltnghia/research/camo [Accessed April 11, 2024].
