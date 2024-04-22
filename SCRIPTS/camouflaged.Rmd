@@ -15,32 +15,32 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ```{r }
+# Import libraries
 library(tidyverse)
 library(dplyr)
 library(ggplot2)
 library(kableExtra)
 
+# Import data
 data <- read.csv("C:/Users/evely/OneDrive/Documents/DS 4002 - Data Science Project/MI3-Project-3/DATA/results.csv")
 data
 
 
-# Read the CSV file into a data frame
 
 # Convert camouflaged and match columns to logical
 data$camouflaged <- as.logical(data$camouflaged)
 data$match <- as.logical(data$match)
 
 
+# Create accuracy table
 camoObjects <- data$object_detected[data$camouflaged == TRUE]
 camoObjectDetectedTrue <- sum(camoObjects == "True")
-camoObjectDetectedFalse <- sum(camoObjects == "False")
 
 camoMatch <- data$match[data$camouflaged == TRUE]
 camoMatchTrue <- sum(camoMatch == TRUE)
 
 nonCamoObjects <- data$object_detected[data$camouflaged == FALSE]
 nonCamoObjectDetectedTrue <- sum(nonCamoObjects == "True")
-nonCamoObjectDetectedFalse <- sum(nonCamoObjects == "False")
 
 nonCamoMatch <- data$match[data$camouflaged == FALSE]
 nonCamoMatchTrue <- sum(nonCamoMatch == TRUE)
@@ -64,14 +64,7 @@ counts_table <- data.frame(
   Object_Match = c(camoMatchTrue, nonCamoMatchTrue)
 )
 
-ggplot(counts_table, aes(x = Object_Detected, fill = Camouflaged)) +
-  geom_bar(position = "dodge", color = "black", stat = "count") +
-  labs(title = "Number of True Object Detection by Camouflaged",
-       x = "Camouflaged",
-       y = "Count",
-       fill = "Object Detected") +
-  theme_minimal()
-
+# Create table for number of objects detected
 ggplot(data, aes(x = object_detected, fill = camouflaged)) +
   geom_bar(position = "dodge") +
   labs(title = "Number of Objects Detected by Camouflaged",
@@ -80,6 +73,7 @@ ggplot(data, aes(x = object_detected, fill = camouflaged)) +
        fill = "Camouflaged") +
   theme_minimal()
 
+# Create table for number of objects detected correctly
 ggplot(data, aes(x = match, fill = camouflaged)) +
   geom_bar(position = "dodge") +
   labs(title = "Number of Objects Detected Correctly by Camouflaged",
