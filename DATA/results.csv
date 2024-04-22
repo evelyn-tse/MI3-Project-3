@@ -1,0 +1,167 @@
+filename,camouflaged,object_detected,label,box,match
+non_camouflaged_bicycle.jpg,False,True,bicycle: 59.75%,[ 67.14945287  67.26064906 197.59592414 229.23718393],True
+non_camouflaged_bird.jpg,False,True,car: 99.99%,[134.85013533  82.95713425 439.30409718 508.05755615],False
+non_camouflaged_bird(1).jpg,False,True,car: 99.99%,[118.08425784  18.18819046 370.74493349 639.27604675],False
+non_camouflaged_bird(2).jpg,False,True,car: 62.42%,[ -9.48776722  11.61612034 324.32384491 158.51106644],False
+non_camouflaged_bison.jpg,False,True,traffic light: 99.99%,[ 36.77368164 124.79989529 483.28159332 413.53408813],False
+non_camouflaged_cat.jpg,False,True,truck: 99.08%,[344.64416504 206.89385891 639.01123047 477.33003616],False
+non_camouflaged_cat(1).jpg,False,True,fire hydrant: 74.43%,[ 90.52953124  26.47007257 499.54178929 361.9576022 ],False
+non_camouflaged_cat(2).jpg,False,True,truck: 99.89%,[152.68620849  44.42857951 502.67720222 315.59747458],False
+non_camouflaged_cat(3).jpg,False,True,horse: 89.86%,[ 2.73731232e+00 -3.82919312e-01  6.39073830e+02  4.81291637e+02],False
+non_camouflaged_cat(4).jpg,False,True,fire hydrant: 93.65%,[ 39.51353073   7.51635075 634.12956238 477.50146866],False
+non_camouflaged_cat(5).jpg,False,False,fire hydrant: 93.65%,[ 39.51353073   7.51635075 634.12956238 477.50146866],False
+non_camouflaged_cat(6).jpg,False,True,stop sign: 95.34%,[214.4616127    0.90156555 637.71781921 481.66042328],False
+non_camouflaged_cat(7).jpg,False,True,truck: 95.26%,[-4.14352417e-01  3.40988588e+01  6.38250046e+02  4.74463863e+02],False
+non_camouflaged_cat(8).jpg,False,False,truck: 95.26%,[-4.14352417e-01  3.40988588e+01  6.38250046e+02  4.74463863e+02],False
+non_camouflaged_cat(9).jpg,False,True,fire hydrant: 81.26%,[  6.43709302 144.28820461 405.17237782 371.40823156],False
+non_camouflaged_cat(10).jpg,False,False,fire hydrant: 81.26%,[  6.43709302 144.28820461 405.17237782 371.40823156],False
+non_camouflaged_cat(11).jpg,False,False,fire hydrant: 81.26%,[  6.43709302 144.28820461 405.17237782 371.40823156],False
+non_camouflaged_cat(12).jpg,False,True,truck: 83.13%,[  3.48637104   5.40300369 360.15300751 620.52993774],False
+non_camouflaged_cat(13).jpg,False,True,truck: 99.30%,[213.22597504 102.23160267 639.91420746 481.93027496],False
+non_camouflaged_cat(14).jpg,False,True,truck: 55.06%,[192.83054352  87.59877205 506.0086441  467.07421303],False
+non_camouflaged_cat(15).jpg,False,True,truck: 92.63%,[  8.70913267   4.15110961 492.63989925 371.63449824],False
+non_camouflaged_cat(16).jpg,False,True,stop sign: 98.66%,[ 76.87597275 248.43606949 580.12458801 421.1050415 ],False
+non_camouflaged_cat(17).jpg,False,True,truck: 99.58%,[106.96641922  49.06864643 593.06724548 418.37150574],False
+non_camouflaged_cat(18).jpg,False,True,fire hydrant: 58.11%,[ 37.75487423  47.90975571 473.27671051 617.30613708],False
+non_camouflaged_cat(19).jpg,False,True,bicycle: 99.09%,[  4.07827377   4.18988228 633.05618286 452.52934456],False
+non_camouflaged_cat(20).jpg,False,True,truck: 93.29%,[ 44.69409943 118.9682436  383.52657318 484.78649139],False
+non_camouflaged_cat(21).jpg,False,True,truck: 97.60%,[ 45.36639154  25.19724727 482.27149248 488.18109155],False
+non_camouflaged_cat(22).jpg,False,True,airplane: 76.64%,[ 83.0607605  105.86332798 132.93376923 256.29644394],False
+non_camouflaged_cat(23).jpg,False,True,truck: 86.37%,[  7.23134995   9.79428291 622.56118774 327.17368126],False
+non_camouflaged_cow.jpg,False,False,truck: 86.37%,[  7.23134995   9.79428291 622.56118774 327.17368126],False
+non_camouflaged_cow(1).jpg,False,True,traffic light: 99.37%,[461.20225239 100.89306772 560.24473429 248.22033083],False
+non_camouflaged_cow(2).jpg,False,True,stop sign: 89.19%,[120.88699341 191.10866547 494.78614807 327.95843124],False
+non_camouflaged_cows.jpg,False,True,traffic light: 58.19%,[ 74.81244087 190.55631638 257.68447876 333.35100174],False
+non_camouflaged_dog.jpg,False,True,horse: 91.15%,[ 68.59127045  15.03304482 640.34500122 478.67440224],False
+non_camouflaged_dog(1).jpg,False,True,stop sign: 100.00%,[ 78.82297516  57.10663319 539.05483246 471.53903961],False
+non_camouflaged_dog(2).jpg,False,True,bird: 51.28%,[110.84541678  -0.41238591 189.24187124  86.83514595],False
+non_camouflaged_dog(3).jpg,False,True,stop sign: 70.82%,[ 68.29301476  86.76367998 330.95607662 460.35015583],False
+non_camouflaged_dog(4).jpg,False,True,stop sign: 62.92%,[ 61.56148911  21.1438036  540.81321716 411.32537842],False
+non_camouflaged_dog(5).jpg,False,True,stop sign: 99.94%,[-1.44279003e-03  1.03430042e+02  3.27129467e+02  5.05756302e+02],False
+non_camouflaged_dog(6).jpg,False,True,bird: 60.45%,[121.84394836  11.81893998 471.81964874 344.81839514],False
+non_camouflaged_dog(7).jpg,False,True,stop sign: 99.44%,[ 30.98060608  49.36868191 613.9264679  477.43577957],False
+non_camouflaged_dog(8).jpg,False,True,traffic light: 72.99%,[ 20.07854408  43.37759018 485.77399707 625.70846558],False
+non_camouflaged_dog(9).jpg,False,True,train: 56.96%,[ 39.83549988  35.88097    567.9898982  542.34364557],False
+non_camouflaged_dog(10).jpg,False,True,stop sign: 98.23%,[252.66794205 173.89863968 633.56910706 353.24501038],False
+non_camouflaged_dog(11).jpg,False,True,stop sign: 69.88%,[ 33.83371353  25.65560818 526.45317078 453.72854233],False
+non_camouflaged_dog(12).jpg,False,True,stop sign: 99.11%,[ 25.49526215 126.1145153  597.74749756 496.65924454],False
+non_camouflaged_dog(13).jpg,False,True,stop sign: 99.72%,[266.31755829  83.9389658  633.98479462 483.06873322],False
+non_camouflaged_dog(14).jpg,False,True,bird: 60.80%,[ 31.34630203 132.32774734 132.65411377 246.65616989],False
+non_camouflaged_dog(15).jpg,False,True,parking meter: 72.86%,[188.51140976  31.2331295  508.28025818 426.11577988],False
+non_camouflaged_elephant.jpg,False,True,traffic light: 51.10%,[348.22086334 123.37855339 446.36959076 191.7246151 ],False
+non_camouflaged_elephant(1).jpg,False,True,traffic light: 77.13%,[186.73854828 192.29244232 404.49150085 408.59670639],False
+non_camouflaged_elephant(2).jpg,False,True,bird: 62.02%,[111.45076752  79.82467175 235.24326324 183.63528728],False
+non_camouflaged_elephant(3).jpg,False,False,bird: 62.02%,[111.45076752  79.82467175 235.24326324 183.63528728],False
+non_camouflaged_elephant(4).jpg,False,True,horse: 52.82%,[ 51.16662383  39.72696885 388.9195919  364.14161325],False
+non_camouflaged_elephant(5).jpg,False,True,parking meter: 92.48%,[ -1.94818497 106.6753006  428.21372986 393.16177368],False
+non_camouflaged_elephant(6).jpg,False,True,dog: 62.73%,[307.33119965 192.11518764 520.82653046 401.25022888],False
+non_camouflaged_elephant(7).jpg,False,True,traffic light: 84.64%,[214.20804977 183.04035187 486.26243591 404.4568634 ],False
+non_camouflaged_elephants.jpg,False,True,traffic light: 52.21%,[249.35556412 269.45031142 398.51154327 403.7302587 ],False
+non_camouflaged_giraffe.jpg,False,True,person: 59.40%,[298.05686951  15.24290055 539.76791382 418.96522164],False
+non_camouflaged_giraffe(1).jpg,False,False,person: 59.40%,[298.05686951  15.24290055 539.76791382 418.96522164],False
+non_camouflaged_giraffe(2).jpg,False,True,car: 75.22%,[  2.50315189 101.66324615 451.22898102 638.40267181],False
+non_camouflaged_giraffe(3).jpg,False,True,bird: 75.19%,[265.23020625 300.38739717 519.70467925 600.59273243],False
+non_camouflaged_giraffe(4).jpg,False,True,car: 86.13%,[  4.9571085    1.48130417 366.05140686 489.76791382],False
+non_camouflaged_giraffe(5).jpg,False,True,bird: 99.84%,[  4.82923508 106.57529354 397.24403381 479.0854454 ],False
+non_camouflaged_giraffe(6).jpg,False,True,horse: 65.20%,[ 31.53539658  88.84913921 594.6245575  470.74384689],False
+non_camouflaged_giraffe(7).jpg,False,False,horse: 65.20%,[ 31.53539658  88.84913921 594.6245575  470.74384689],False
+non_camouflaged_giraffe(8).jpg,False,True,bird: 94.66%,[185.22789001  23.75864029 295.18306732 635.23796082],False
+non_camouflaged_giraffe(9).jpg,False,True,boat: 85.41%,[294.03066635 233.80290985 360.86914062 354.39720154],False
+non_camouflaged_horse.jpg,False,True,bird: 83.84%,[ 48.90892655  86.31720766 121.07854337 297.36189544],False
+non_camouflaged_polar_bear.jpg,False,True,stop sign: 97.20%,[132.05379486 105.61672211 516.96163177 393.42487335],False
+non_camouflaged_sheep.jpg,False,True,bird: 66.06%,[284.05686378  15.76721191 454.44806099 359.92847443],False
+non_camouflaged_sheep(1).jpg,False,True,dog: 100.00%,[ 79.57145882  35.66432953 536.13042688 616.36211395],False
+non_camouflaged_sheep(2).jpg,False,True,dog: 99.97%,[213.46504211  54.68331814 462.5881958  363.5997963 ],False
+non_camouflaged_toy_animals.jpg,False,True,parking meter: 82.63%,[ 79.3356514  205.16601562 353.46946716 417.24700928],False
+non_camouflaged_zebra.jpg,False,False,parking meter: 82.63%,[ 79.3356514  205.16601562 353.46946716 417.24700928],False
+non_camouflaged_zebra(1).jpg,False,True,parking meter: 99.67%,[ 39.7309494   50.83534241 307.53612518 303.35492134],False
+non_camouflaged_zebra(2).jpg,False,False,parking meter: 99.67%,[ 39.7309494   50.83534241 307.53612518 303.35492134],False
+non_camouflaged_zebra(3).jpg,False,True,parking meter: 99.31%,[ 54.59989548   2.23956585 511.05369568 433.92814636],False
+non_camouflaged_zebra(4).jpg,False,False,parking meter: 99.31%,[ 54.59989548   2.23956585 511.05369568 433.92814636],False
+non_camouflaged_zebra(5).jpg,False,True,parking meter: 56.59%,[  5.58036566 115.80709517 172.04672098 309.64097273],False
+non_camouflaged_zebra(6).jpg,False,True,parking meter: 100.00%,[ 17.15196609  23.98134488 541.57722473 487.81796479],False
+non_camouflaged_zebra(7).jpg,False,True,parking meter: 90.83%,[ 69.60254669  26.02077484 595.15117645 393.69352341],False
+non_camouflaged_zebra(8).jpg,False,True,parking meter: 68.97%,[175.96204758 189.02186394 441.56761169 362.35791206],False
+camourflage_bat.jpg,True,True,car: 85.70%,[ -5.2208198    2.19936538 614.24255204 916.91265774],False
+camourflage_bird.jpg,True,False,car: 85.70%,[ -5.2208198    2.19936538 614.24255204 916.91265774],False
+camourflage_bird(1).jpg,True,False,car: 85.70%,[ -5.2208198    2.19936538 614.24255204 916.91265774],False
+camourflage_bird(2).jpg,True,False,car: 85.70%,[ -5.2208198    2.19936538 614.24255204 916.91265774],False
+camourflage_bird(3).jpg,True,False,car: 85.70%,[ -5.2208198    2.19936538 614.24255204 916.91265774],False
+camourflage_bird(4).jpg,True,False,car: 85.70%,[ -5.2208198    2.19936538 614.24255204 916.91265774],False
+camourflage_bird(5).jpg,True,True,cat: 52.03%,[  1.05978477   7.49831423 888.96927166 629.07814443],False
+camourflage_bird(6).jpg,True,True,car: 99.64%,[  2.95003188  38.81465971 293.00889838 395.88960886],False
+camourflage_bird(7).jpg,True,False,car: 99.64%,[  2.95003188  38.81465971 293.00889838 395.88960886],False
+camourflage_bird(8).jpg,True,False,car: 99.64%,[  2.95003188  38.81465971 293.00889838 395.88960886],False
+camourflage_bird(9).jpg,True,True,cat: 96.18%,[   5.65045166   18.1473029  1019.81866455  710.32804012],False
+camourflage_bird(10).jpg,True,False,cat: 96.18%,[   5.65045166   18.1473029  1019.81866455  710.32804012],False
+camourflage_bird(11).jpg,True,True,car: 76.20%,[ 70.54932117  44.86855325 278.1768322  205.71147323],False
+camourflage_butterfly.jpg,True,False,car: 76.20%,[ 70.54932117  44.86855325 278.1768322  205.71147323],False
+camourflage_cat.jpg,True,False,car: 76.20%,[ 70.54932117  44.86855325 278.1768322  205.71147323],False
+camourflage_caterpillar.jpg,True,False,car: 76.20%,[ 70.54932117  44.86855325 278.1768322  205.71147323],False
+camourflage_chameleon.jpg,True,True,cat: 79.01%,[  7.27655798   4.450275   466.31871223 360.93036413],False
+camourflage_chameleon(1).jpg,True,False,cat: 79.01%,[  7.27655798   4.450275   466.31871223 360.93036413],False
+camourflage_cheetah.jpg,True,False,cat: 79.01%,[  7.27655798   4.450275   466.31871223 360.93036413],False
+camourflage_crab.jpg,True,False,cat: 79.01%,[  7.27655798   4.450275   466.31871223 360.93036413],False
+camourflage_crocodile.jpg,True,True,truck: 92.72%,[ -6.36890531  19.95912194 749.63209033 599.35748577],False
+camourflage_cuttlefish.jpg,True,False,truck: 92.72%,[ -6.36890531  19.95912194 749.63209033 599.35748577],False
+camourflage_dog.jpg,True,True,stop sign: 75.75%,[  0.92580393   4.13834605 263.6194706  183.97804534],False
+camourflage_dog(1).jpg,True,True,truck: 60.43%,[ 20.69239405   3.71657434 239.63768601 210.38545799],False
+camourflage_dog(2).jpg,True,True,traffic light: 85.57%,[ -4.36882615   0.69610804 634.12508273 610.10944009],False
+camourflage_dog(3).jpg,True,True,truck: 78.14%,[  7.95787811  39.09642869 915.86923599 632.35655391],False
+camourflage_dog(4).jpg,True,False,truck: 78.14%,[  7.95787811  39.09642869 915.86923599 632.35655391],False
+camourflage_duck.jpg,True,True,car: 78.88%,[165.50938189  89.44945335 345.29457986 261.80262566],False
+camourflage_fern.jpg,True,False,car: 78.88%,[165.50938189  89.44945335 345.29457986 261.80262566],False
+camourflage_fish.jpg,True,False,car: 78.88%,[165.50938189  89.44945335 345.29457986 261.80262566],False
+camourflage_fish(1).jpg,True,False,car: 78.88%,[165.50938189  89.44945335 345.29457986 261.80262566],False
+camourflage_fish(2).jpg,True,False,car: 78.88%,[165.50938189  89.44945335 345.29457986 261.80262566],False
+camourflage_fish(3).jpg,True,False,car: 78.88%,[165.50938189  89.44945335 345.29457986 261.80262566],False
+camourflage_fish(4).jpg,True,False,car: 78.88%,[165.50938189  89.44945335 345.29457986 261.80262566],False
+camourflage_flounder.jpg,True,True,car: 92.77%,[  5.51350111   3.86235708 709.715204   473.70682836],False
+camourflage_flounder(1).jpg,True,True,truck: 72.03%,[5.23875445e-01 6.83867037e-02 2.68963732e+02 1.86439553e+02],False
+camourflage_flounder(2).jpg,True,True,truck: 89.92%,[ 11.07926369   1.26150608 648.36543202 445.60184813],False
+camourflage_fox.jpg,True,True,truck: 60.57%,[ 12.34893405  23.56974792 525.11634433 383.40518188],False
+camourflage_fox(1).jpg,True,False,truck: 60.57%,[ 12.34893405  23.56974792 525.11634433 383.40518188],False
+camourflage_frog.jpg,True,False,truck: 60.57%,[ 12.34893405  23.56974792 525.11634433 383.40518188],False
+camourflage_frog(1).jpg,True,False,truck: 60.57%,[ 12.34893405  23.56974792 525.11634433 383.40518188],False
+camourflage_frog(2).jpg,True,False,truck: 60.57%,[ 12.34893405  23.56974792 525.11634433 383.40518188],False
+camourflage_frog(3).jpg,True,True,dog: 95.25%,[ -1.16606042   1.12884361 465.65022111 550.43012381],False
+camourflage_frog(4).jpg,True,True,dog: 93.33%,[ 62.43408012  -0.84368348 742.4408493  552.82583427],False
+camourflage_frog(5).jpg,True,True,cat: 69.22%,[  4.46163917  -1.04441166 605.12072897 432.43765259],False
+camourflage_frog(6).jpg,True,False,cat: 69.22%,[  4.46163917  -1.04441166 605.12072897 432.43765259],False
+camourflage_frog(7).jpg,True,True,dog: 62.79%,[  0.96919712   2.89217401 412.36616874 513.33395624],False
+camourflage_frog(8).jpg,True,False,dog: 62.79%,[  0.96919712   2.89217401 412.36616874 513.33395624],False
+camourflage_frog(9).jpg,True,True,cat: 51.03%,[ 38.29423699  -2.57058996 616.21769953 341.8216145 ],False
+camourflage_frog(10).jpg,True,True,bird: 89.56%,[  1.59765318   0.52578187 351.40307271 273.81205511],False
+camourflage_frog(11).jpg,True,False,bird: 89.56%,[  1.59765318   0.52578187 351.40307271 273.81205511],False
+camourflage_giraffe.jpg,True,True,traffic light: 79.61%,[220.6600889  330.15279248 430.58895564 868.0377692 ],False
+camourflage_grasshopper.jpg,True,True,cat: 99.81%,[-2.20757866e+00  2.13971734e-01  7.35902340e+02  5.49440631e+02],False
+camourflage_insect.jpg,True,True,dog: 87.09%,[1.13789710e+00 9.41439661e+00 9.58252275e+02 1.51222029e+03],False
+camourflage_insect(1).jpg,True,True,car: 58.59%,[  3.58276367 147.69979778 795.79529762 756.61195731],False
+camourflage_insect(2).jpg,True,True,fire hydrant: 87.00%,[  0.86831927  46.18580589 595.5690676  816.43970883],False
+camourflage_insect(3).jpg,True,True,cat: 97.30%,[  9.06510723  -6.41374683 830.2137208  579.11668003],False
+camourflage_insect(4).jpg,True,True,cat: 53.52%,[ -1.10730529  -4.00035828 501.13737583 378.5790503 ],False
+camourflage_insect(5).jpg,True,False,cat: 53.52%,[ -1.10730529  -4.00035828 501.13737583 378.5790503 ],False
+camourflage_insect(6).jpg,True,False,cat: 53.52%,[ -1.10730529  -4.00035828 501.13737583 378.5790503 ],False
+camourflage_insect(7).jpg,True,True,person: 80.58%,[-1.45665348e-01  2.86877632e+01  6.37308427e+02  4.79253445e+02],False
+camourflage_insect(8).jpg,True,True,cat: 99.92%,[ -1.2627309   -1.71724033 319.84406424 407.82485676],False
+camourflage_insect(9).jpg,True,True,car: 69.94%,[-1.11830235e+00  6.39036298e-01  4.97907400e+02  7.50079393e+02],False
+camourflage_insect(10).jpg,True,False,car: 69.94%,[-1.11830235e+00  6.39036298e-01  4.97907400e+02  7.50079393e+02],False
+camourflage_insect(11).jpg,True,False,car: 69.94%,[-1.11830235e+00  6.39036298e-01  4.97907400e+02  7.50079393e+02],False
+camourflage_insect(12).jpg,True,True,cat: 97.41%,[  1.19447592   0.41388547 276.02343774 181.40760994],False
+camourflage_insect(13).jpg,True,True,dog: 80.83%,[ -1.62026051   4.44324493 427.20595098 640.7194519 ],False
+camourflage_insect(14).jpg,True,False,dog: 80.83%,[ -1.62026051   4.44324493 427.20595098 640.7194519 ],False
+camourflage_lion.jpg,True,False,dog: 80.83%,[ -1.62026051   4.44324493 427.20595098 640.7194519 ],False
+camourflage_lizard.jpg,True,True,airplane: 96.90%,[ 30.81994718  51.51867923 723.65104651 972.19464588],False
+camourflage_lizard(1).jpg,True,True,car: 81.64%,[ -2.76596025   0.91604233 425.39609075 640.56533813],False
+camourflage_lizard(2).jpg,True,True,cat: 98.77%,[ 37.30159044   1.08156911 876.67789459 496.5719403 ],False
+camourflage_lizard(3).jpg,True,False,cat: 98.77%,[ 37.30159044   1.08156911 876.67789459 496.5719403 ],False
+camourflage_lizard(4).jpg,True,True,car: 53.02%,[  1.72495034   1.46124953 330.63399768 477.38369203],False
+camourflage_lizard(5).jpg,True,False,car: 53.02%,[  1.72495034   1.46124953 330.63399768 477.38369203],False
+camourflage_lizard(6).jpg,True,False,car: 53.02%,[  1.72495034   1.46124953 330.63399768 477.38369203],False
+camourflage_lizard(7).jpg,True,True,fire hydrant: 89.09%,[ -1.90520883   1.58662796 600.62577724 400.5589962 ],False
+camourflage_lizard(8).jpg,True,True,car: 73.13%,[ 14.16443869  44.40560579 402.4352181  356.19374657],False
+camourflage_lizard(9).jpg,True,False,car: 73.13%,[ 14.16443869  44.40560579 402.4352181  356.19374657],False
+camourflage_lizard(10).jpg,True,False,car: 73.13%,[ 14.16443869  44.40560579 402.4352181  356.19374657],False
+camourflage_moth.jpg,True,False,car: 73.13%,[ 14.16443869  44.40560579 402.4352181  356.19374657],False
+camourflage_moth(1).jpg,True,True,cat: 93.39%,[152.80063355  47.24459267 529.08314538 328.82370758],False
+camourflage_moth(2).jpg,True,True,car: 85.16%,[ 29.84306589  18.55752853 273.95308912 182.4229635 ],False
